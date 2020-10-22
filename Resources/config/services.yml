@@ -1,0 +1,9 @@
+services:
+  HoPeter1018\ExceptionResponseBundle\EventListener\ExceptionResponseListener:
+    arguments:
+        - '@request_stack'
+        - '@router'
+        - '@templating'
+    public: false
+    tags:
+      - { name: "kernel.event_listener", event: "kernel.exception", method: "onKernelException" }

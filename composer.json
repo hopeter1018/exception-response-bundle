@@ -1,0 +1,26 @@
+{
+    "name": "hopeter1018/exception-response-bundle",
+    "description": "",
+    "keywords": ["Symfony", "Bundle", "Exception", "Response"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Peter",
+            "email": "hokwaichi@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "HoPeter1018\\ExceptionResponseBundle\\": ""
+        }
+    },
+    "require": {
+        "php": ">=5.5.9"
+    },
+    "require-dev": {
+    },
+    "config": {
+        "sort-packages": true
+    }
+}
